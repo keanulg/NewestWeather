@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#d3dfe3">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#596073">
+            <Button
+                    android:id="@+id/myCityBackButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/menu_back"/>
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="我的城市"/>
+            <Button
+                    android:id="@+id/lajiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_laji_button"/>
+        </LinearLayout>
+        <GridView
+                android:id="@+id/myCitiesGridView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:numColumns="2"
+                android:horizontalSpacing="20dp"
+                android:verticalSpacing="28dp"
+                android:padding="12dp">
+
+        </GridView>
+</LinearLayout>

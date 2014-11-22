@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <ImageView
+            android:id="@+id/citys_ImageView"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_alignParentLeft="true"
+            />
+
+    <TextView
+            android:id="@+id/max_Tempreture_TextView"
+            android:layout_marginTop="29dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:textColor="#ff5a00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            />
+
+    <TextView
+            android:id="@+id/citysMinTem_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="59dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+    <TextView
+            android:id="@+id/citysWeather_TextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+    <TextView
+            android:id="@+id/citysPm_TextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            />
+    <TextView   android:id="@+id/citysName_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:layout_alignParentBottom="true"/>
+</RelativeLayout>

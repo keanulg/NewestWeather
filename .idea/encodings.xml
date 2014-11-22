@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/libs/android-support-v4.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/butten_pressed.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/butten_unpress.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/dark.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/white.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/what_new_four.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/what_new_one.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/what_new_three.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/what_new_two.xml" charset="UTF-8" />
+  </component>
+</project>
+

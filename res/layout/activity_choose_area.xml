@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#555555">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#596073">
+       <TextView
+                android:id="@+id/areaTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#ffffff"
+                android:textSize="24dp"
+                android:text="测试"/>
+        <Button
+                android:id="@+id/areaPageBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_back"/>
+      <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_alignParentRight="true"
+              android:gravity="center_vertical">
+          <ImageView
+                  android:id="@+id/locationCityImg"
+                  android:layout_width="20dp"
+                  android:background="@drawable/ic_loc_hotel_true"
+                  android:layout_height="wrap_content"/>
+          <TextView
+                  android:id="@+id/locationCityText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_toRightOf="@id/locationCityImg"
+                  android:layout_marginRight="10dp"
+                  android:textSize="20dp"
+                  android:text=""/>
+      </LinearLayout>
+
+    </RelativeLayout>
+    <ListView
+            android:id="@+id/chooseAreaListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+    </ListView>
+</LinearLayout>
